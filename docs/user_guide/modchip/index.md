@@ -6,7 +6,9 @@ A modchip is a physical modification to the motherboard of your Switch. It canno
 
 ::: tip
 
-[Modchip Installation guide](https://guide.nx-modchip.info/)
+[V1/V2 Modchip guide](https://www.youtube.com/watch?v=5_m8RL2NucU)
+[Lite Modchip guide](https://www.youtube.com/watch?v=CVIYPTTVL6E)
+[OLED Modchip guide](https://www.youtube.com/watch?v=FNBB5iYD8Es)
 
 :::
 
@@ -50,10 +52,6 @@ If you do decide to follow the recommended emuMMC path later in the guide, make 
 We **ONLY** support the Picofly modchip (the `RP2040 Zero` development board and the "modchip variant" of it). Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
 
 There is always a risk of your Switch being rendered dysfunctional when messing with its hardware without proper experience.
-
-The NH-Discord server is not for fixing bad/failed modchip installations.
-
-We can give advice and installation tips for the installation as long as it's for a Picofly modchip.
 
 :::
 
