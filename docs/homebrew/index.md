@@ -20,11 +20,11 @@ Homebrew apps are stored in `sd:/switch` by default and Homebrew sysmodules are 
 
 - [EdiZon](edizon) (sysmodule and Homebrew app)
 - [SimpleModManager](simplemodmanager) (Homebrew app)
-- [Tesla-Menu](tesla-menu) (sysmodule)
+- [Ultrahand](ultrahand) (sysmodule)
 - [MissionControl](mission-control) (sysmodule)
 - [sys-con](sys-con)(sysmodule)
 - [sys-botbase](sys-botbase) (sysmodule)
 - [SysDVR](sysdvr) (sysmodule and Homebrew app)
-- [sys-clk](sys-clk) (sysmodule and Homebrew app)
+- [Horizon-OC](horizon-oc) (sysmodule and Homebrew app)
 - [ldn_mitm](ldn_mitm) (sysmodule and Homebrew app)
 
