@@ -11,8 +11,9 @@ import container from 'markdown-it-container'
 import * as i18n from './i18n'
 
 export default defineConfig({
-  title: "NH Switch Guide",
-  description: "Switch CFW Guide.",
+  title: "Switch CFW Guide",
+  description: "A Switch CFW Guide.",
+  ignoreDeadLinks: true,  // add this line
   sitemap: {
     hostname: 'https://switch.hacks.guide'
   },
@@ -23,8 +24,8 @@ export default defineConfig({
       next: false
     },
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/C29hYvh' },
-      { icon: 'github', link: 'https://github.com/nh-server/switch-guide' }
+      { icon: 'discord', link: 'https://dsc.gg/horizonoc' },
+      { icon: 'github', link: 'https://github.com/Horizon-OC/switch-guide' }
     ]
   },
   locales: {
