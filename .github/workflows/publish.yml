@@ -20,10 +20,6 @@ jobs:
         run: npm ci
       - name: Build site
         run: npm run docs:build
-      - name: Post-Mkdocs touch/copy files
-        run: |
-          touch docs/.vitepress/dist/.nojekyll
-          cp CNAME docs/.vitepress/dist/CNAME
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
