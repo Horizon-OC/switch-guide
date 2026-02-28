@@ -31,7 +31,7 @@ jobs:
       - name: Post-build files
         run: touch docs/.vitepress/dist/.nojekyll
 
-      - name: Deploy 🚀
+      - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           token: ${{ secrets.DEPLOY_TOKEN }}
