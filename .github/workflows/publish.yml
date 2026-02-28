@@ -3,6 +3,10 @@ on:
   push:
     branches: [ master ]
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +15,26 @@ jobs:
         with:
           persist-credentials: false
           submodules: recursive
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build site
         run: npm run docs:build
-      - name: Deploy
+
+      - name: Post-build files
+        run: touch docs/.vitepress/dist/.nojekyll
+
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
+          token: ${{ secrets.DEPLOY_TOKEN }}
           branch: gh-pages
           folder: docs/.vitepress/dist
           clean: true
