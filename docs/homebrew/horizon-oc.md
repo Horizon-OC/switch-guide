@@ -1,10 +1,10 @@
-## sys-clk
+## Horizon OC
 
 Horizon OC is a [sysmodule](index#terminologies) that allows you to overclock the hardware of your Switch. The usage, configuration and clock speed information can be found on the official Github repository [here](https://github.com/Horizon-OC/Horizon-OC)
 
 ## Installation requirements:
 - An archive manager like [7-Zip](https://www.7-zip.org/)
-- The latest release of [sys-clk](https://github.com/Horizon-OC/Horizon-OC/releases) (the `dist.zip` file)
+- The latest release of [Horizon OC](https://github.com/Horizon-OC/Horizon-OC/releases) (the `dist.zip` file)
 
 ## Installation instructions:
 1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
@@ -25,9 +25,9 @@ Horizon OC is a [sysmodule](index#terminologies) that allows you to overclock th
 Open Ultrahand and select Horizon OC Zeus, and configure your settings according to the guide
 
 ## Troubleshooting
-### My Switch crashes on boot after I installed sys-clk!:
+### My Switch crashes on boot after I installed horizon-oc!:
 
-**Cause:** If your Switch crashes on boot, make sure you're using the latest release of sys-clk. If it continues to crash afterwards, see the troubleshooting step at the bottom of this page.
+**Cause:** If your Switch crashes on boot, make sure you're using the latest release of horizon-oc. If it continues to crash afterwards, see the troubleshooting step at the bottom of this page.
 
 ## My Switch crashes while using Horizon-OC!:
 **Cause:** Your overclock settings may be unstable.
