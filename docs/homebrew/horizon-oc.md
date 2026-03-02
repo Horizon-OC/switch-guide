@@ -1,4 +1,4 @@
-## Horizon OC
+# Horizon OC
 
 Horizon OC is a [sysmodule](index#terminologies) that allows you to overclock the hardware of your Switch. The usage, configuration and clock speed information can be found on the official Github repository [here](https://github.com/Horizon-OC/Horizon-OC)
 
@@ -19,13 +19,13 @@ Horizon OC is a [sysmodule](index#terminologies) that allows you to overclock th
    ```
 
 1. Boot into CFW.
-1. Follow the [Erista guide](rentry.co/erista) or [Mariko guide](rentry.co/mariko)
+1. Follow the [Erista guide](https://rentry.co/erista) or [Mariko guide](https://rentry.co/mariko)
 
 ## Basic usage instructions
 Open Ultrahand and select Horizon OC Zeus, and configure your settings according to the guide
 
 ## Troubleshooting
-### My Switch crashes on boot after I installed horizon-oc!:
+### My Switch crashes on boot after I installed horizon-oc and/or shows a black screen!:
 
 **Cause:** If your Switch crashes on boot, make sure you're using the latest release of horizon-oc. If it continues to crash afterwards, see the troubleshooting step at the bottom of this page.
 

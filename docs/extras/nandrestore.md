@@ -11,9 +11,8 @@
 ## What you need:
 - Your `rawnand.bin` (Combined or in 15 or 30 parts)
 - Your `BOOT0` and `BOOT1`
-    - If you're missing any of the files above, ask for further help in the [Nintendo Homebrew](https://discord.gg/C29hYvh) Discord server.
 - The [Hekate](https://github.com/CTCaer/hekate/releases/) Payload
-- A microSD card larger than 32GB
+- A microSD card larger than 32GB (or 64GB if on a OLED)
 
 ## Instructions:
 

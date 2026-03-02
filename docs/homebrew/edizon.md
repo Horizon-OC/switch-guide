@@ -12,9 +12,9 @@ For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon) and/or [EdiZo
 
 **EdiZon overlay**
 
-EdiZon also offers a Tesla-Menu overlay, however, the official EdiZon overlay is no longer maintained and will result in Atmosphère crashing when trying to use the EdiZon overlay on firmware version 16.0.0+.
+EdiZon also offers a Ultrahand overlay
 
-The maintained EdiZon overlay can be found [here](https://github.com/proferabg/EdiZon-Overlay/releases).
+The EdiZon overlay can be found [here](https://github.com/proferabg/EdiZon-Overlay/releases).
 
 :::
 

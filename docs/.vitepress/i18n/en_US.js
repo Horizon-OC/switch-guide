@@ -58,12 +58,12 @@ const themeConfig = {
 					{ text: localeData.pages["homebrew/nx-shell"], link: `/homebrew/nx-shell` },
 					{ text: localeData.pages["homebrew/edizon"], link: `/homebrew/edizon` },
 					{ text: localeData.pages["homebrew/simplemodmanager"], link: `/homebrew/simplemodmanager` },
-					{ text: localeData.pages["homebrew/tesla-menu"], link: `/homebrew/tesla-menu` },
+					{ text: localeData.pages["homebrew/ultrahand"], link: `/homebrew/ultrahand` },
 					{ text: localeData.pages["homebrew/mission-control"], link: `/homebrew/mission-control` },
 					{ text: localeData.pages["homebrew/sys-con"], link: `/homebrew/sys-con` },
 					{ text: localeData.pages["homebrew/sys-botbase"], link: `/homebrew/sys-botbase` },
 					{ text: localeData.pages["homebrew/sysdvr"], link: `/homebrew/sysdvr` },
-					{ text: localeData.pages["homebrew/sys-clk"], link: `/homebrew/sys-clk` },
+					{ text: localeData.pages["homebrew/horizon-oc"], link: `/homebrew/horizon-oc` },
 					{ text: localeData.pages["homebrew/ldn_mitm"], link: `/homebrew/ldn_mitm` }
 				]
 			},
@@ -213,7 +213,7 @@ const themeConfig = {
 		],
 	},
 	footer: {
-		copyright: 'Copyright © 2025 Nintendo Homebrew',
+		copyright: 'Copyright © 2026 Nintendo Homebrew & Horizon-OC. Licensed under the ISC',
 		items: [
 			{ text: localeData.pages["about"], link: `/about` }
 		]

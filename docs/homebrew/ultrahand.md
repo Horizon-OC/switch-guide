@@ -2,8 +2,6 @@
 
 Ultrahand is an overlay menu developed by [WerWolv](https://github.com/ppkantorski), Ultrahand is comparable to Rosalina menu on the 3DS and its purpose is to be able to load community made overlays for Homebrew apps and sysmodules that can be accessed at any time. Below you can find common use cases for Ultrahand. The official Github page for Ultrahand can be found [here](https://github.com/ppkantorski/Ultrahand-Overlay).
 
-:::
-
 ### Common use cases for Ultrahand:
 - Load community made Ultrahand overlays
 - Viewing the temperatures/clock speeds of your hardware
@@ -28,22 +26,7 @@ Ultrahand is an overlay menu developed by [WerWolv](https://github.com/ppkantors
 ## Opening Ultrahand
 Ultrahand can be opened by pressing `ZL` + `ZR` + `DPAD down`, assuming you use the default configuration.
 
-![tesla](img/tesla-menu.jpg)
-
-## Changing the button combination
-
-If you wish to change the default button configuration, see the instructions below:
-
-1. Navigate to `sd:/config` on your microSD card.
-1. Create a folder named `tesla` if it doesn't exist already.
-1. Create a file named `config.ini` in `sd:/config/tesla`.
-1. Paste the following text inside of `config.ini`:
-    ```
-    [tesla]
-    key_combo=L+R+RS
-    # A, B, X, Y, LS, RS, L, R, ZL, ZR, PLUS, MINUS, DLEFT, DUP, DRIGHT, DDOWN, SL, SR
-    ```
-1. Change the `key_combo` value to anything you desire and save the file. The accepted inputs are mentioned on the third line.
+![ultrahand](img/ultrahand.gif)
 
 ## Commonly used Ultrahand overlays
 - [Status-Monitor-Overlay](https://github.com/ppkantorski/Status-Monitor-Overlay/)
@@ -64,7 +47,7 @@ If you wish to change the default button configuration, see the instructions bel
 
 **Cause:** If your Switch crashes with Error code `2001-0123 (0xf601)` and Title ID `420000000007E51A`, the overlay you're trying to open/use isn't up to date. Check its source repository for updates.
 
-- If this overlay doesn't have an updated release, you may have to look for a forked (updated) release or compile it yourself using the latest `libtesla` library. The latter is for developers (or advanced users).
+- If this overlay doesn't have an updated release, you may have to look for a forked (updated) release or compile it yourself using the latest `libultrahand` library. The latter is for developers (or advanced users).
 
 ### Ultrahand isn't opening when I press the correct button combination!:
 

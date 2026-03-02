@@ -22,9 +22,9 @@ Homebrew apps are stored in `sd:/switch` by default and Homebrew sysmodules are 
 - [SimpleModManager](simplemodmanager) (Homebrew app)
 - [Ultrahand](ultrahand) (sysmodule)
 - [MissionControl](mission-control) (sysmodule)
-- [sys-con](sys-con)(sysmodule)
+- [sys-con](sys-con) (sysmodule)
 - [sys-botbase](sys-botbase) (sysmodule)
 - [SysDVR](sysdvr) (sysmodule and Homebrew app)
-- [Horizon-OC](horizon-oc) (sysmodule and Homebrew app)
+- [Horizon-OC](horizon-oc) (sysmodule)
 - [ldn_mitm](ldn_mitm) (sysmodule and Homebrew app)
 

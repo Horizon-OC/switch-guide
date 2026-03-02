@@ -12,6 +12,8 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 
 ## What you need:
 - The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
+- The latest [Picofly firmware](https://github.com/rehius/usk/releases) (Download the update.bin file)
+- The latest version of [Picofly Toolbox](https://github.com/Ansem-SoD/Picofly/raw/refs/heads/main/Firmwares/picofly_toolbox_0.2.bin)
 - Your microSD card
 
 ## Instructions:
@@ -22,11 +24,16 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 1. Inside of the extracted hekate folder, you will find the `bootloader` folder and the `hekate_ctcaer_(version).bin` payload.
 1. Copy the `bootloader` folder and `hekate_ctcaer_(version).bin` payload to the root of your microSD card.
 1. Rename the `hekate_ctcaer_(version).bin` payload to `payload.bin`
+1. Copy `update.bin` to the root of your SD card
+1. Copy `picofly_toolbox_0.2.bin` to `bootloader/payloads`
 1. Insert your microSD card back into your Switch, then turn it on.
 1. You should now be loaded into the hekate GUI (Nyx), pictured below, within seconds.
     ![Nyx](../all/img/nyx.bmp){ width="600" }
     - If you are unable to load into Nyx, consult the warning message below.
-
+1. Tap on `Payloads`, then select Picofly Toolbox
+1. Navigate to `Update` with the volume buttons and press the power button to confirm
+1. Press the power button, then select `Power Off`, and hit the power buton to confirm
+1. Press Power again to reboot hekate. It may take a while
 ::: warning
 
 If your Switch does not load into the hekate GUI, or shows a `No SD Card`/`No Payload` screen when turning on the console, ensure that you inserted your microSD card and that hekate's `payload.bin` is on the root of the microSD card.
@@ -59,7 +66,7 @@ A: The bootloader folder contains crucial parts of hekate that can't fit in the 
 
 **Q: How often should I check for updates to hekate, and what benefits do newer releases bring to the process?**
 
-A: Nintendo Homebrew's #announcements channel will automatically poll for updates to Atmosphère and hekate, letting you know when updates are available for them. In general, you'll want to look for updates whenever a major Switch system update is launched, as major updates will stop Horizon from booting until hekate and Atmosphère are updated accordingly.
+A: Horizon-OC's #announcements channel will automatically poll for updates to Atmosphère and hekate, letting you know when updates are available for them. In general, you'll want to look for updates whenever a major Switch system update is launched, as major updates will stop Horizon from booting until hekate and Atmosphère are updated accordingly.
 
 **Q: Does this process have any effect on the Switch's system or data?**
 
