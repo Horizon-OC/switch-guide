@@ -34,7 +34,6 @@ jobs:
         # miscellaneous files needed for GitHub etc
         run: |
           touch docs/.vitepress/dist/.nojekyll
-          cp CNAME docs/.vitepress/dist/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
