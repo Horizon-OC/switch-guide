@@ -1,20 +1,22 @@
 name: Deploy site
+
 on:
   push:
     branches: [ master ]
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
           submodules: recursive
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -28,13 +30,15 @@ jobs:
       - name: Build site
         run: npm run docs:build
 
-      - name: Post-build files
-        run: touch docs/.vitepress/dist/.nojekyll
+      - name: Post-Mkdocs touch/copy files
+        # miscellaneous files needed for GitHub etc
+        run: |
+          touch docs/.vitepress/dist/.nojekyll
+          cp CNAME docs/.vitepress/dist/CNAME
 
-      - name: Deploy 
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          token: ${{ secrets.DEPLOY_TOKEN }}
-          branch: gh-pages
-          folder: docs/.vitepress/dist
-          clean: true
+          branch: gh-pages # The branch the action should deploy to.
+          folder: docs/.vitepress/dist # The folder the action should deploy.
+          clean: true # Automatically remove deleted files from the deploy branch
