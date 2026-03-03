@@ -32,6 +32,9 @@ export default defineConfig({
     root: i18n.en_US
   },
   vite: {
+    build: {
+      target: 'es2022'
+    },
     resolve: {
       alias: [
         {
